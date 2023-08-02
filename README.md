@@ -1,4 +1,4 @@
-# NutriXApp Name
+# NutriX
 
 ## Description
 This is a Java-based Android application developed using Android Studio. The app provides BMI (Body Mass Index) calculation functionality, user login and logout sessions using Firebase for authentication, personalized exercise recommendations based on the user's BMI, and diet plans tailored to the specific BMI. Additionally, the app includes a step counter to track the user's total steps and current steps taken.
@@ -9,6 +9,7 @@ This is a Java-based Android application developed using Android Studio. The app
 * Personalized Exercise Recommendations
 * Diet Plans for Specific BMI
 * Step Counter
+
 
 ## Installation
 * Clone the repository.
