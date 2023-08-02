@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">NutrX</string>
+    <string name="button">Button</string>
+    <string name="create_account">Create Account</string>
+    <string name="your_destination_for_fitness">Your destination for fitness</string>
+    <string name="x">X</string>
+    <string name="already_have_an_account"><u>Already have an account?Sign in</u></string>
+    <string name="nutr">Nutr</string>
+    <string name="create">Create</string>
+    <string name="hint">hint</string>
+    <string name="sign_up">Sign up</string>
+    <string name="confirm_password">Confirm Password:</string>
+    <string name="password">Password:</string>
+    <string name="by_signing_up_you_accept_terms_of_service_and_privacy_policy">By signing up you accept Terms of Service and Privacy Policy</string>
+    <string name="height">Height:</string>
+    <string name="weight">Weight:</string>
+    <string name="in_kg">In KG</string>
+    <string name="in_cm">In CM</string>
+    <string name="jane_doe">jane doe</string>
+    <string name="jane_doe_email_com">janedoe@email.com</string>
+    <string name="pss">********</string>
+    <string name="sign_in">Sign in</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="back_arrow">back_arrow</string>
+    <string name="_9998887776">9998887776</string>
+    <string name="phone_number">Phone number:</string>
+    <string name="email">Email:</string>
+    <string name="phone_no">Phone no:</string>
+    <string name="weight_kg">KG:</string>
+    <string name="height_cm">CM:</string>
+    <string name="name">Name:</string>
+    <string name="invalid_name">This field cannot be empty</string>
+    <string name="invalid_email">Invalid email</string>
+    <string name="invalid_password">Enter 6 digit password</string>
+    <string name="invalid_phone">Enter a valid phone number</string>
+    <string name="invalid_WnH">This field cant be empty</string>
+    <string name="invalid_cnf_password">password does not match</string>
+    <string name="welcome">Welcome,</string>
+    <string name="log_out">Log out</string>
+    <string name="todo">TODO</string>
+    <string name="BMI">Calculate your BMI?</string>
+    <string name="invalid_bmi">invalid BMI input</string>
+    <string name="title_activity_exercise">exercise</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="b_m_i">BMI:</string>
+</resources>

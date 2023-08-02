@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "829558307257",
+    "project_id": "nutrx-ea08f",
+    "storage_bucket": "nutrx-ea08f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:829558307257:android:62de9526d9ea05538a1e68",
+        "android_client_info": {
+          "package_name": "com.example.nutrx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "829558307257-qujnlab9cmeajftbcu7uetu2684v0qnp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA64VkfaMvXvDtJladohxhm_n0gf31ZquI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "829558307257-qujnlab9cmeajftbcu7uetu2684v0qnp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

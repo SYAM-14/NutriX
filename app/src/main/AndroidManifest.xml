@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.nutrx">
+
+    <uses-permission
+        android:name="android.permission.ACTIVITY_RECOGNITION"
+        tools:ignore="ManifestOrder" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NUTRx">
+        <activity
+            android:name=".step_sensor"
+            android:exported="false" />
+        <activity
+            android:name=".diet_above_25"
+            android:exported="false" />
+        <activity
+            android:name=".diet_under_25"
+            android:exported="false" />
+        <activity
+            android:name=".timer_under_25"
+            android:exported="false" />
+        <activity
+            android:name=".timer_above_25"
+            android:exported="false" />
+        <activity
+            android:name=".exercise_under_25"
+            android:exported="false" />
+        <activity
+            android:name=".exercise_above_25"
+            android:exported="false" />
+        <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
+            android:name=".bmi"
+            android:exported="false" />
+        <activity
+            android:name=".sign_in"
+            android:exported="false" />
+        <activity
+            android:name=".sign_up"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Scissor skier"
+                android:fontFamily="@font/montserrat_semibold"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="20dp"
+                />
+
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="fill_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="17dp"
+                android:src="@drawable/scissor_skier_ex_9" />
+
+            <Button
+                android:id="@+id/time_1"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/timer_bg"
+                android:fontFamily="@font/montserrat_semibold"
+                android:padding="15dp"
+                android:text="1:00"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/startButton1"
+                android:layout_width="323dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/button_features"
+                android:fontFamily="@font/montserrat_regular"
+                android:gravity="center"
+                android:text="Start"
+                android:textAllCaps="false"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>
